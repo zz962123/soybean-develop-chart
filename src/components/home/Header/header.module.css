@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-pretendard-semibold);
+  color: #111111;
+  height: var(--header-height);
+}
+
+.wrapper {
+  display: flex;
+}
+
+.logo {
+  font-family: 'Pretendard';
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 30px;
+  margin-right: 70px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav p {
+  font-family: var(--font-pretendard-semibold);
+  font-size: 16px;
+  letter-spacing: -0.025em;
+
+  color: var(--system-disabled);
+  margin-right: 64px;
+}
+
+.side {
+  display: flex;
+  align-items: center;
+}
+
+.side p {
+  margin-left: 24px;
+}
+
+.side span {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.side span svg {
+  width: 32px;
+  height: 32px;
+}
